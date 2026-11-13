@@ -1,0 +1,50 @@
+{
+  "name": "swayer",
+  "version": "0.2.0",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node build/src/app.js",
+    "dev": "npx nodemon --ignore data",
+    "build": "npx tsc",
+    "clean": "npx tsc --build --clean",
+    "licenses": "node tools/create-categorized-notice-from-tree.cjs",
+    "test": "npm run test:build && npm run test:unit && npm run test:behavior",
+    "test:build": "npx tsc --noEmit",
+    "test:unit": "node --import tsx --test --experimental-test-coverage tests/*.test.ts",
+    "test:behavior": "node --import tsx node_modules/@cucumber/cucumber/bin/cucumber.js",
+    "fmt": "npx prettier --write 'src/**/*.ts' 'tests/**/*.ts'",
+    "lint": "npx eslint 'src/**/*.ts' 'tests/**/*.ts'"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts",
+    "exec": "npx tsx src/app.ts"
+  },
+  "dependencies": {
+    "@types/config": "^3.3.5",
+    "@types/express": "^5.0.3",
+    "@types/json-patch": "^0.0.33",
+    "ajv": "^8.17.1",
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "json-patch": "^0.7.0",
+    "node-fetch": "^3.3.1",
+    "prom-client": "^14.0.1",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@eslint/js": "^9.16.0",
+    "@types/cucumber": "^6.0.1",
+    "@types/node": "^24.0.1",
+    "eslint": "^9.16.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.4.2",
+    "tsx": "^4.20.3",
+    "typescript-eslint": "^8.17.0"
+  },
+  "license": "MIT"
+}

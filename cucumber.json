@@ -1,0 +1,16 @@
+{
+  "default": {
+    "import": [
+      "tests/step_definitions/**/*.ts",
+      "tests/support/**/*.ts"
+    ],
+    "features": "features/**/*.feature",
+    "tags": "not @ignore",
+    "format": [
+      "progress"
+    ],
+    "formatOptions": {
+      "snippetInterface": "synchronous"
+    }
+  }
+}

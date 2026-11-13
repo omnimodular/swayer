@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "pipeline/v3/2025-08-18",
+  "title": "Pipeline",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "headers": {
+      "type": "object",
+      "patternProperties": {
+        "^.*$": {
+          "type": "string"
+        }
+      }
+    },
+    "passthrough": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cookies": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    },
+    "body": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "object" }
+      ]
+    },
+    "event": {
+      "type": "object",
+      "properties": {
+        "endpoint": {
+          "type": "string"
+        },
+        "body": {
+          "$ref": "#/$defs/body"
+        }
+      },
+      "required": ["endpoint"]
+    },
+    "steps": {
+      "type": "array",
+      "maxItems": 100,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "method": {
+            "oneOf": [
+              {
+                "type": "string",
+                "enum": ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "endpoint": {
+            "type": "string"
+          },
+          "body": {
+            "$ref": "#/$defs/body"
+          },
+          "headers": {
+            "$ref": "#/$defs/headers"
+          },
+          "passthrough": {
+            "$ref": "#/$defs/passthrough"
+          },
+          "cookies": {
+            "$ref": "#/$defs/cookies"
+          },
+          "patch": {
+            "$ref": "local://json-patch-spec.json#"
+          }
+        },
+        "oneOf": [
+          {
+            "$comment": "HTTP method",
+            "properties": {
+              "method": {
+                "type": "string"
+              }
+            },
+            "required": ["method", "endpoint"],
+            "not": {
+              "required": ["patch"]
+            }
+          },
+          {
+            "$comment": "Internal method",
+            "properties": {
+              "method": {
+                "type": "null"
+              }
+            },
+            "anyOf": [
+              { "required": ["body"] },
+              { "required": ["headers"] },
+              { "required": ["patch"] }
+            ],
+            "not": { "required": ["endpoint"] }
+          }
+        ]
+      }
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "examples": [
+        "49552f44-310b-11ec-91ac-38d547aac12a",
+        "8aa8ba9164fe955201657807e11b5f3d"
+      ]
+    },
+    "traceId": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "const": "v3",
+      "examples": ["v3"],
+      "default": "v3"
+    },
+    "name": {
+      "type": "string"
+    },
+    "headers": {
+      "$ref": "#/$defs/headers"
+    },
+    "passthrough": {
+      "$ref": "#/$defs/passthrough"
+    },
+    "cookies": {
+      "$ref": "#/$defs/cookies"
+    },
+    "steps": {
+      "$ref": "#/$defs/steps"
+    },
+    "events": {
+      "type": "object",
+      "properties": {
+        "precheck": {
+          "$ref": "#/$defs/event"
+        },
+        "success": {
+          "$ref": "#/$defs/event"
+        },
+        "retry": {
+          "$ref": "#/$defs/event"
+        },
+        "failure": {
+          "$ref": "#/$defs/event"
+        }
+      }
+    }
+  },
+  "required": ["name", "steps"]
+}

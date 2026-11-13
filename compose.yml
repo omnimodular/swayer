@@ -1,0 +1,10 @@
+services:
+  dev:
+    init: true
+    build: {context: ".", target: development}
+    environment:
+      - HOME
+    volumes:
+      - $HOME:$HOME
+    working_dir: $PWD
+    command: [sleep, inf]

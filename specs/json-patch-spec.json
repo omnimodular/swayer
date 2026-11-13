@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$defs": {
+    "path": {
+      "description": "A JSON Pointer path.",
+      "pattern": "^#?(|(/([^/~]|~[01])*)*)$",
+      "type": "string"
+    }
+  },
+  "$id": "https://json.schemastore.org/json-patch.json",
+  "$comment": "Modified from 'http://json.schemastore.org/json-patch' to ensure draft-07 specification",
+  "items": {
+    "oneOf": [
+      {
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["value", "op", "path"],
+        "properties": {
+          "path": {
+            "$ref": "#/$defs/path"
+          },
+          "op": {
+            "description": "The operation to perform.",
+            "type": "string",
+            "enum": ["add", "replace", "test"]
+          },
+          "value": {
+            "description": "The value to add, replace or test."
+          }
+        }
+      },
+      {
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["op", "path"],
+        "properties": {
+          "path": {
+            "$ref": "#/$defs/path"
+          },
+          "op": {
+            "description": "The operation to perform.",
+            "type": "string",
+            "enum": ["remove"]
+          }
+        }
+      },
+      {
+        "additionalProperties": false,
+        "type": "object",
+        "required": ["from", "op", "path"],
+        "properties": {
+          "path": {
+            "$ref": "#/$defs/path"
+          },
+          "op": {
+            "description": "The operation to perform.",
+            "type": "string",
+            "enum": ["move", "copy"]
+          },
+          "from": {
+            "$ref": "#/$defs/path",
+            "type": "string",
+            "description": "A JSON Pointer path pointing to the location to move/copy from.",
+            "pattern": "^#?(|(/([^/~]|~[01])*)*)$"
+          }
+        }
+      }
+    ]
+  },
+  "title": "JSON schema for JSONPatch files",
+  "type": "array"
+}

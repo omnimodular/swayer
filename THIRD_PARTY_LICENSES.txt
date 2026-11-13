@@ -1,0 +1,1421 @@
+================================================================================
+
+THIRD_PARTY_LICENSES.txt for swayer
+
+================================================================================
+
+This product uses software developed by other open source projects.
+The following is a list of the open source software packages used in this product,
+along with their license information.
+
+Generated on: 2026-11-13
+
+================================================================================
+DIRECT DEPENDENCIES
+================================================================================
+
+PRODUCTION
+--------------------------------------------------------------------------------
+Package: @types/config@3.3.5
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/express@5.0.3
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/json-patch@0.0.33
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: ajv@8.17.1
+License: MIT
+Repository: ajv-validator/ajv
+
+Package: config@3.3.12
+License: MIT
+Repository: http://github.com/node-config/node-config.git
+
+Package: express@4.21.2
+License: MIT
+Repository: expressjs/express
+
+Package: json-patch@0.7.0
+License: BSD
+Repository: git://github.com/bruth/jsonpatch-js.git
+
+Package: node-fetch@3.3.2
+License: MIT
+Repository: https://github.com/node-fetch/node-fetch.git
+
+Package: prom-client@14.2.0
+License: Apache-2.0
+Repository: git@github.com:siimon/prom-client.git
+
+Package: typescript@5.8.3
+License: Apache-2.0
+Repository: https://github.com/microsoft/TypeScript.git
+
+DEVELOPMENT (not in production)
+--------------------------------------------------------------------------------
+Package: @cucumber/cucumber@11.3.0
+License: MIT
+Repository: git://github.com/cucumber/cucumber-js.git
+
+Package: @eslint/js@9.39.1
+License: MIT
+Repository: https://github.com/eslint/eslint.git
+
+Package: @types/cucumber@6.0.1
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/node@24.0.7
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: eslint@9.39.1
+License: MIT
+Repository: eslint/eslint
+
+Package: nodemon@3.1.10
+License: MIT
+Repository: https://github.com/remy/nodemon.git
+
+Package: prettier@3.7.2
+License: MIT
+Repository: prettier/prettier
+
+Package: tsx@4.20.3
+License: MIT
+Repository: privatenumber/tsx
+
+Package: typescript-eslint@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+================================================================================
+INDIRECT DEPENDENCIES (Transitive Dependencies)
+================================================================================
+
+Package: @babel/code-frame@7.27.1
+License: MIT
+Repository: https://github.com/babel/babel.git
+
+Package: @babel/helper-validator-identifier@7.27.1
+License: MIT
+Repository: https://github.com/babel/babel.git
+
+Package: @colors/colors@1.5.0
+License: MIT
+Repository: http://github.com/DABH/colors.js.git
+
+Package: @cucumber/ci-environment@10.0.1
+License: MIT
+Repository: git://github.com/cucumber/ci-environment.git
+
+Package: @cucumber/cucumber-expressions@18.0.1
+License: MIT
+Repository: git://github.com/cucumber/cucumber-expressions.git
+
+Package: @cucumber/gherkin-streams@5.0.1
+License: MIT
+Repository: git://github.com/cucumber/gherkin-streams.git
+
+Package: @cucumber/gherkin-utils@9.2.0
+License: MIT
+Repository: git://github.com/cucumber/gherkin-utils.git
+
+Package: @cucumber/gherkin@30.0.4
+License: MIT
+Repository: git+https://github.com/cucumber/gherkin.git
+
+Package: @cucumber/gherkin@31.0.0
+License: MIT
+Repository: git+https://github.com/cucumber/gherkin.git
+
+Package: @cucumber/html-formatter@21.10.1
+License: MIT
+Repository: git+https://github.com/cucumber/html-formatter.git
+
+Package: @cucumber/junit-xml-formatter@0.7.1
+License: MIT
+Repository: git+https://github.com/cucumber/junit-xml-formatter.git
+
+Package: @cucumber/message-streams@4.0.1
+License: MIT
+Repository: git://github.com/cucumber/message-streams.git
+
+Package: @cucumber/messages@26.0.1
+License: MIT
+Repository: git://github.com/cucumber/messages.git
+
+Package: @cucumber/messages@27.2.0
+License: MIT
+Repository: git://github.com/cucumber/messages.git
+
+Package: @cucumber/query@13.3.0
+License: MIT
+Repository: git://github.com/cucumber/query.git
+
+Package: @cucumber/tag-expressions@6.1.2
+License: MIT
+Repository: git://github.com/cucumber/tag-expressions.git
+
+Package: @esbuild/linux-x64@0.25.5
+License: MIT
+Repository: git+https://github.com/evanw/esbuild.git
+
+Package: @eslint-community/eslint-utils@4.9.0
+License: MIT
+Repository: https://github.com/eslint-community/eslint-utils
+
+Package: @eslint-community/regexpp@4.12.2
+License: MIT
+Repository: https://github.com/eslint-community/regexpp
+
+Package: @eslint/config-array@0.21.1
+License: Apache-2.0
+Repository: git+https://github.com/eslint/rewrite.git
+
+Package: @eslint/config-helpers@0.4.2
+License: Apache-2.0
+Repository: git+https://github.com/eslint/rewrite.git
+
+Package: @eslint/core@0.17.0
+License: Apache-2.0
+Repository: git+https://github.com/eslint/rewrite.git
+
+Package: @eslint/eslintrc@3.3.3
+License: MIT
+Repository: eslint/eslintrc
+
+Package: @eslint/object-schema@2.1.7
+License: Apache-2.0
+Repository: git+https://github.com/eslint/rewrite.git
+
+Package: @eslint/plugin-kit@0.4.1
+License: Apache-2.0
+Repository: git+https://github.com/eslint/rewrite.git
+
+Package: @humanfs/core@0.19.1
+License: Apache-2.0
+Repository: git+https://github.com/humanwhocodes/humanfs.git
+
+Package: @humanfs/node@0.16.7
+License: Apache-2.0
+Repository: git+https://github.com/humanwhocodes/humanfs.git
+
+Package: @humanwhocodes/module-importer@1.0.1
+License: Apache-2.0
+Repository: git+https://github.com/humanwhocodes/module-importer.git
+
+Package: @humanwhocodes/retry@0.4.3
+License: Apache-2.0
+Repository: git+https://github.com/humanwhocodes/retry.git
+
+Package: @isaacs/cliui@8.0.2
+License: ISC
+Repository: yargs/cliui
+
+Package: @pkgjs/parseargs@0.11.0
+License: MIT
+Repository: git@github.com:pkgjs/parseargs.git
+
+Package: @teppeis/multimaps@3.0.0
+License: MIT
+Repository: git+ssh://git@github.com/teppeis/multimaps.git
+
+Package: @types/body-parser@1.19.6
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/connect@3.4.38
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/estree@1.0.8
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/express-serve-static-core@5.0.6
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/http-errors@2.0.5
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/json-schema@7.0.15
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/mime@1.3.5
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/normalize-package-data@2.4.4
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/qs@6.14.0
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/range-parser@1.2.7
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/send@0.17.5
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/serve-static@1.15.8
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @types/uuid@10.0.0
+License: MIT
+Repository: https://github.com/DefinitelyTyped/DefinitelyTyped.git
+
+Package: @typescript-eslint/eslint-plugin@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: @typescript-eslint/parser@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: @typescript-eslint/project-service@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: @typescript-eslint/scope-manager@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: @typescript-eslint/tsconfig-utils@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: @typescript-eslint/type-utils@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: @typescript-eslint/types@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: @typescript-eslint/typescript-estree@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: @typescript-eslint/utils@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: @typescript-eslint/visitor-keys@8.48.0
+License: MIT
+Repository: https://github.com/typescript-eslint/typescript-eslint.git
+
+Package: accepts@1.3.8
+License: MIT
+Repository: jshttp/accepts
+
+Package: acorn-jsx@5.3.2
+License: MIT
+Repository: https://github.com/acornjs/acorn-jsx
+
+Package: acorn@8.15.0
+License: MIT
+Repository: git+https://github.com/acornjs/acorn.git
+
+Package: ajv@6.12.6
+License: MIT
+Repository: https://github.com/ajv-validator/ajv.git
+
+Package: ansi-regex@4.1.1
+License: MIT
+Repository: chalk/ansi-regex
+
+Package: ansi-regex@5.0.1
+License: MIT
+Repository: chalk/ansi-regex
+
+Package: ansi-regex@6.1.0
+License: MIT
+Repository: chalk/ansi-regex
+
+Package: ansi-styles@4.3.0
+License: MIT
+Repository: chalk/ansi-styles
+
+Package: ansi-styles@6.2.1
+License: MIT
+Repository: chalk/ansi-styles
+
+Package: any-promise@1.3.0
+License: MIT
+Repository: https://github.com/kevinbeaty/any-promise
+
+Package: anymatch@3.1.3
+License: ISC
+Repository: https://github.com/micromatch/anymatch
+
+Package: argparse@2.0.1
+License: Python-2.0
+Repository: nodeca/argparse
+
+Package: array-flatten@1.1.1
+License: MIT
+Repository: git://github.com/blakeembrey/array-flatten.git
+
+Package: assertion-error-formatter@3.0.0
+License: MIT
+Repository: git+https://github.com/charlierudolph/node-assertion-error-formatter.git
+
+Package: balanced-match@1.0.2
+License: MIT
+Repository: git://github.com/juliangruber/balanced-match.git
+
+Package: binary-extensions@2.3.0
+License: MIT
+Repository: sindresorhus/binary-extensions
+
+Package: bintrees@1.0.2
+License: MIT
+Repository: git://github.com/vadimg/js_bintrees.git
+
+Package: body-parser@1.20.3
+License: MIT
+Repository: expressjs/body-parser
+
+Package: brace-expansion@1.1.12
+License: MIT
+Repository: git://github.com/juliangruber/brace-expansion.git
+
+Package: brace-expansion@2.0.2
+License: MIT
+Repository: git://github.com/juliangruber/brace-expansion.git
+
+Package: braces@3.0.3
+License: MIT
+Repository: micromatch/braces
+
+Package: buffer-from@1.1.2
+License: MIT
+Repository: LinusU/buffer-from
+
+Package: bytes@3.1.2
+License: MIT
+Repository: visionmedia/bytes.js
+
+Package: call-bind-apply-helpers@1.0.2
+License: MIT
+Repository: git+https://github.com/ljharb/call-bind-apply-helpers.git
+
+Package: call-bound@1.0.4
+License: MIT
+Repository: git+https://github.com/ljharb/call-bound.git
+
+Package: callsites@3.1.0
+License: MIT
+Repository: sindresorhus/callsites
+
+Package: capital-case@1.0.4
+License: MIT
+Repository: git://github.com/blakeembrey/change-case.git
+
+Package: chalk@4.1.2
+License: MIT
+Repository: chalk/chalk
+
+Package: chokidar@3.6.0
+License: MIT
+Repository: git+https://github.com/paulmillr/chokidar.git
+
+Package: class-transformer@0.5.1
+License: MIT
+Repository: https://github.com/typestack/class-transformer.git
+
+Package: cli-table3@0.6.5
+License: MIT
+Repository: https://github.com/cli-table/cli-table3.git
+
+Package: color-convert@2.0.1
+License: MIT
+Repository: Qix-/color-convert
+
+Package: color-name@1.1.4
+License: MIT
+Repository: git@github.com:colorjs/color-name.git
+
+Package: commander@10.0.1
+License: MIT
+Repository: https://github.com/tj/commander.js.git
+
+Package: commander@13.1.0
+License: MIT
+Repository: git+https://github.com/tj/commander.js.git
+
+Package: commander@9.1.0
+License: MIT
+Repository: https://github.com/tj/commander.js.git
+
+Package: concat-map@0.0.1
+License: MIT
+Repository: git://github.com/substack/node-concat-map.git
+
+Package: content-disposition@0.5.4
+License: MIT
+Repository: jshttp/content-disposition
+
+Package: content-type@1.0.5
+License: MIT
+Repository: jshttp/content-type
+
+Package: cookie-signature@1.0.6
+License: MIT
+Repository: https://github.com/visionmedia/node-cookie-signature.git
+
+Package: cookie@0.7.1
+License: MIT
+Repository: jshttp/cookie
+
+Package: cross-spawn@7.0.6
+License: MIT
+Repository: git@github.com:moxystudio/node-cross-spawn.git
+
+Package: data-uri-to-buffer@4.0.1
+License: MIT
+Repository: git://github.com/TooTallNate/node-data-uri-to-buffer.git
+
+Package: debug@2.6.9
+License: MIT
+Repository: git://github.com/visionmedia/debug.git
+
+Package: debug@4.4.1
+License: MIT
+Repository: git://github.com/debug-js/debug.git
+
+Package: deep-is@0.1.4
+License: MIT
+Repository: http://github.com/thlorenz/deep-is.git
+
+Package: depd@2.0.0
+License: MIT
+Repository: dougwilson/nodejs-depd
+
+Package: destroy@1.2.0
+License: MIT
+Repository: stream-utils/destroy
+
+Package: diff@4.0.2
+License: BSD-3-Clause
+Repository: git://github.com/kpdecker/jsdiff.git
+
+Package: dunder-proto@1.0.1
+License: MIT
+Repository: git+https://github.com/es-shims/dunder-proto.git
+
+Package: eastasianwidth@0.2.0
+License: MIT
+Repository: git://github.com/komagata/eastasianwidth.git
+
+Package: ee-first@1.1.1
+License: MIT
+Repository: jonathanong/ee-first
+
+Package: emoji-regex@8.0.0
+License: MIT
+Repository: https://github.com/mathiasbynens/emoji-regex.git
+
+Package: emoji-regex@9.2.2
+License: MIT
+Repository: https://github.com/mathiasbynens/emoji-regex.git
+
+Package: encodeurl@1.0.2
+License: MIT
+Repository: pillarjs/encodeurl
+
+Package: encodeurl@2.0.0
+License: MIT
+Repository: pillarjs/encodeurl
+
+Package: error-stack-parser@2.1.4
+License: MIT
+Repository: git://github.com/stacktracejs/error-stack-parser.git
+
+Package: es-define-property@1.0.1
+License: MIT
+Repository: git+https://github.com/ljharb/es-define-property.git
+
+Package: es-errors@1.3.0
+License: MIT
+Repository: git+https://github.com/ljharb/es-errors.git
+
+Package: es-object-atoms@1.1.1
+License: MIT
+Repository: git+https://github.com/ljharb/es-object-atoms.git
+
+Package: esbuild@0.25.5
+License: MIT
+Repository: git+https://github.com/evanw/esbuild.git
+
+Package: escape-html@1.0.3
+License: MIT
+Repository: component/escape-html
+
+Package: escape-string-regexp@1.0.5
+License: MIT
+Repository: sindresorhus/escape-string-regexp
+
+Package: escape-string-regexp@4.0.0
+License: MIT
+Repository: sindresorhus/escape-string-regexp
+
+Package: eslint-scope@8.4.0
+License: BSD-2-Clause
+Repository: https://github.com/eslint/js.git
+
+Package: eslint-visitor-keys@3.4.3
+License: Apache-2.0
+Repository: eslint/eslint-visitor-keys
+
+Package: eslint-visitor-keys@4.2.1
+License: Apache-2.0
+Repository: https://github.com/eslint/js.git
+
+Package: espree@10.4.0
+License: BSD-2-Clause
+Repository: https://github.com/eslint/js.git
+
+Package: esquery@1.6.0
+License: BSD-3-Clause
+Repository: https://github.com/estools/esquery.git
+
+Package: esrecurse@4.3.0
+License: BSD-2-Clause
+Repository: https://github.com/estools/esrecurse.git
+
+Package: estraverse@5.3.0
+License: BSD-2-Clause
+Repository: http://github.com/estools/estraverse.git
+
+Package: esutils@2.0.3
+License: BSD-2-Clause
+Repository: http://github.com/estools/esutils.git
+
+Package: etag@1.8.1
+License: MIT
+Repository: jshttp/etag
+
+Package: fast-deep-equal@3.1.3
+License: MIT
+Repository: git+https://github.com/epoberezkin/fast-deep-equal.git
+
+Package: fast-json-stable-stringify@2.1.0
+License: MIT
+Repository: git://github.com/epoberezkin/fast-json-stable-stringify.git
+
+Package: fast-levenshtein@2.0.6
+License: MIT
+Repository: https://github.com/hiddentao/fast-levenshtein.git
+
+Package: fast-uri@3.0.6
+License: BSD-3-Clause
+Repository: git+https://github.com/fastify/fast-uri.git
+
+Package: fdir@6.5.0
+License: MIT
+Repository: git+https://github.com/thecodrr/fdir.git
+
+Package: fetch-blob@3.2.0
+License: MIT
+Repository: https://github.com/node-fetch/fetch-blob.git
+
+Package: figures@3.2.0
+License: MIT
+Repository: sindresorhus/figures
+
+Package: file-entry-cache@8.0.0
+License: MIT
+Repository: jaredwray/file-entry-cache
+
+Package: fill-range@7.1.1
+License: MIT
+Repository: jonschlinkert/fill-range
+
+Package: finalhandler@1.3.1
+License: MIT
+Repository: pillarjs/finalhandler
+
+Package: find-up-simple@1.0.1
+License: MIT
+Repository: sindresorhus/find-up-simple
+
+Package: find-up@5.0.0
+License: MIT
+Repository: sindresorhus/find-up
+
+Package: flat-cache@4.0.1
+License: MIT
+Repository: jaredwray/flat-cache
+
+Package: flatted@3.3.3
+License: ISC
+Repository: git+https://github.com/WebReflection/flatted.git
+
+Package: foreground-child@3.3.1
+License: ISC
+Repository: git+https://github.com/tapjs/foreground-child.git
+
+Package: formdata-polyfill@4.0.10
+License: MIT
+Repository: git+https://jimmywarting@github.com/jimmywarting/FormData.git
+
+Package: forwarded@0.2.0
+License: MIT
+Repository: jshttp/forwarded
+
+Package: fresh@0.5.2
+License: MIT
+Repository: jshttp/fresh
+
+Package: function-bind@1.1.2
+License: MIT
+Repository: https://github.com/Raynos/function-bind.git
+
+Package: get-intrinsic@1.3.0
+License: MIT
+Repository: git+https://github.com/ljharb/get-intrinsic.git
+
+Package: get-proto@1.0.1
+License: MIT
+Repository: git+https://github.com/ljharb/get-proto.git
+
+Package: get-tsconfig@4.10.1
+License: MIT
+Repository: privatenumber/get-tsconfig
+
+Package: glob-parent@5.1.2
+License: ISC
+Repository: gulpjs/glob-parent
+
+Package: glob-parent@6.0.2
+License: ISC
+Repository: gulpjs/glob-parent
+
+Package: glob@10.4.5
+License: ISC
+Repository: git://github.com/isaacs/node-glob.git
+
+Package: global-dirs@3.0.1
+License: MIT
+Repository: sindresorhus/global-dirs
+
+Package: globals@14.0.0
+License: MIT
+Repository: sindresorhus/globals
+
+Package: gopd@1.2.0
+License: MIT
+Repository: git+https://github.com/ljharb/gopd.git
+
+Package: graphemer@1.4.0
+License: MIT
+Repository: https://github.com/flmnt/graphemer.git
+
+Package: has-ansi@4.0.1
+License: MIT
+Repository: chalk/has-ansi
+
+Package: has-flag@3.0.0
+License: MIT
+Repository: sindresorhus/has-flag
+
+Package: has-flag@4.0.0
+License: MIT
+Repository: sindresorhus/has-flag
+
+Package: has-symbols@1.1.0
+License: MIT
+Repository: git://github.com/inspect-js/has-symbols.git
+
+Package: hasown@2.0.2
+License: MIT
+Repository: git+https://github.com/inspect-js/hasOwn.git
+
+Package: hosted-git-info@7.0.2
+License: ISC
+Repository: git+https://github.com/npm/hosted-git-info.git
+
+Package: http-errors@2.0.0
+License: MIT
+Repository: jshttp/http-errors
+
+Package: iconv-lite@0.4.24
+License: MIT
+Repository: git://github.com/ashtuchkin/iconv-lite.git
+
+Package: ignore-by-default@1.0.1
+License: ISC
+Repository: git+https://github.com/novemberborn/ignore-by-default.git
+
+Package: ignore@5.3.2
+License: MIT
+Repository: git@github.com:kaelzhang/node-ignore.git
+
+Package: ignore@7.0.5
+License: MIT
+Repository: git@github.com:kaelzhang/node-ignore.git
+
+Package: import-fresh@3.3.1
+License: MIT
+Repository: sindresorhus/import-fresh
+
+Package: imurmurhash@0.1.4
+License: MIT
+Repository: https://github.com/jensyt/imurmurhash-js
+
+Package: indent-string@4.0.0
+License: MIT
+Repository: sindresorhus/indent-string
+
+Package: index-to-position@1.1.0
+License: MIT
+Repository: sindresorhus/index-to-position
+
+Package: inherits@2.0.4
+License: ISC
+Repository: git://github.com/isaacs/inherits
+
+Package: ini@2.0.0
+License: ISC
+Repository: git://github.com/isaacs/ini.git
+
+Package: ipaddr.js@1.9.1
+License: MIT
+Repository: git://github.com/whitequark/ipaddr.js
+
+Package: is-binary-path@2.1.0
+License: MIT
+Repository: sindresorhus/is-binary-path
+
+Package: is-extglob@2.1.1
+License: MIT
+Repository: jonschlinkert/is-extglob
+
+Package: is-fullwidth-code-point@3.0.0
+License: MIT
+Repository: sindresorhus/is-fullwidth-code-point
+
+Package: is-glob@4.0.3
+License: MIT
+Repository: micromatch/is-glob
+
+Package: is-installed-globally@0.4.0
+License: MIT
+Repository: sindresorhus/is-installed-globally
+
+Package: is-number@7.0.0
+License: MIT
+Repository: jonschlinkert/is-number
+
+Package: is-path-inside@3.0.3
+License: MIT
+Repository: sindresorhus/is-path-inside
+
+Package: is-stream@2.0.1
+License: MIT
+Repository: sindresorhus/is-stream
+
+Package: isexe@2.0.0
+License: ISC
+Repository: git+https://github.com/isaacs/isexe.git
+
+Package: jackspeak@3.4.3
+License: BlueOak-1.0.0
+Repository: git+https://github.com/isaacs/jackspeak.git
+
+Package: js-tokens@4.0.0
+License: MIT
+Repository: lydell/js-tokens
+
+Package: js-yaml@4.1.1
+License: MIT
+Repository: nodeca/js-yaml
+
+Package: json-buffer@3.0.1
+License: MIT
+Repository: git://github.com/dominictarr/json-buffer.git
+
+Package: json-schema-traverse@0.4.1
+License: MIT
+Repository: git+https://github.com/epoberezkin/json-schema-traverse.git
+
+Package: json-schema-traverse@1.0.0
+License: MIT
+Repository: git+https://github.com/epoberezkin/json-schema-traverse.git
+
+Package: json-stable-stringify-without-jsonify@1.0.1
+License: MIT
+Repository: git://github.com/samn/json-stable-stringify.git
+
+Package: json5@2.2.3
+License: MIT
+Repository: git+https://github.com/json5/json5.git
+
+Package: keyv@4.5.4
+License: MIT
+Repository: git+https://github.com/jaredwray/keyv.git
+
+Package: knuth-shuffle-seeded@1.0.6
+License: Apache-2.0
+Repository: git://github.com/TimothyGu/knuth-shuffle-seeded.git
+
+Package: levn@0.4.1
+License: MIT
+Repository: git://github.com/gkz/levn.git
+
+Package: locate-path@6.0.0
+License: MIT
+Repository: sindresorhus/locate-path
+
+Package: lodash.merge@4.6.2
+License: MIT
+Repository: lodash/lodash
+
+Package: lodash.mergewith@4.6.2
+License: MIT
+Repository: lodash/lodash
+
+Package: lodash.sortby@4.7.0
+License: MIT
+Repository: lodash/lodash
+
+Package: lower-case@2.0.2
+License: MIT
+Repository: git://github.com/blakeembrey/change-case.git
+
+Package: lru-cache@10.4.3
+License: ISC
+Repository: git://github.com/isaacs/node-lru-cache.git
+
+Package: luxon@3.6.1
+License: MIT
+Repository: https://github.com/moment/luxon
+
+Package: math-intrinsics@1.1.0
+License: MIT
+Repository: git+https://github.com/es-shims/math-intrinsics.git
+
+Package: media-typer@0.3.0
+License: MIT
+Repository: jshttp/media-typer
+
+Package: merge-descriptors@1.0.3
+License: MIT
+Repository: sindresorhus/merge-descriptors
+
+Package: methods@1.1.2
+License: MIT
+Repository: jshttp/methods
+
+Package: mime-db@1.52.0
+License: MIT
+Repository: jshttp/mime-db
+
+Package: mime-types@2.1.35
+License: MIT
+Repository: jshttp/mime-types
+
+Package: mime@1.6.0
+License: MIT
+Repository: https://github.com/broofa/node-mime
+
+Package: mime@3.0.0
+License: MIT
+Repository: https://github.com/broofa/mime
+
+Package: minimatch@3.1.2
+License: ISC
+Repository: git://github.com/isaacs/minimatch.git
+
+Package: minimatch@9.0.5
+License: ISC
+Repository: git://github.com/isaacs/minimatch.git
+
+Package: minipass@7.1.2
+License: ISC
+Repository: https://github.com/isaacs/minipass
+
+Package: mkdirp@2.1.6
+License: MIT
+Repository: https://github.com/isaacs/node-mkdirp.git
+
+Package: ms@2.0.0
+License: MIT
+Repository: zeit/ms
+
+Package: ms@2.1.3
+License: MIT
+Repository: vercel/ms
+
+Package: mz@2.7.0
+License: MIT
+Repository: normalize/mz
+
+Package: natural-compare@1.4.0
+License: MIT
+Repository: git://github.com/litejs/natural-compare-lite.git
+
+Package: negotiator@0.6.3
+License: MIT
+Repository: jshttp/negotiator
+
+Package: no-case@3.0.4
+License: MIT
+Repository: git://github.com/blakeembrey/change-case.git
+
+Package: node-domexception@1.0.0
+License: MIT
+Repository: git+https://github.com/jimmywarting/node-domexception.git
+
+Package: normalize-package-data@6.0.2
+License: BSD-2-Clause
+Repository: git+https://github.com/npm/normalize-package-data.git
+
+Package: normalize-path@3.0.0
+License: MIT
+Repository: jonschlinkert/normalize-path
+
+Package: object-assign@4.1.1
+License: MIT
+Repository: sindresorhus/object-assign
+
+Package: object-inspect@1.13.4
+License: MIT
+Repository: git://github.com/inspect-js/object-inspect.git
+
+Package: on-finished@2.4.1
+License: MIT
+Repository: jshttp/on-finished
+
+Package: optionator@0.9.4
+License: MIT
+Repository: git://github.com/gkz/optionator.git
+
+Package: p-limit@3.1.0
+License: MIT
+Repository: sindresorhus/p-limit
+
+Package: p-locate@5.0.0
+License: MIT
+Repository: sindresorhus/p-locate
+
+Package: package-json-from-dist@1.0.1
+License: BlueOak-1.0.0
+Repository: git+https://github.com/isaacs/package-json-from-dist.git
+
+Package: pad-right@0.2.2
+License: MIT
+Repository: jonschlinkert/pad-right
+
+Package: parent-module@1.0.1
+License: MIT
+Repository: sindresorhus/parent-module
+
+Package: parse-json@8.3.0
+License: MIT
+Repository: sindresorhus/parse-json
+
+Package: parseurl@1.3.3
+License: MIT
+Repository: pillarjs/parseurl
+
+Package: path-exists@4.0.0
+License: MIT
+Repository: sindresorhus/path-exists
+
+Package: path-key@3.1.1
+License: MIT
+Repository: sindresorhus/path-key
+
+Package: path-scurry@1.11.1
+License: BlueOak-1.0.0
+Repository: git+https://github.com/isaacs/path-scurry
+
+Package: path-to-regexp@0.1.12
+License: MIT
+Repository: https://github.com/pillarjs/path-to-regexp.git
+
+Package: picocolors@1.1.1
+License: ISC
+Repository: alexeyraspopov/picocolors
+
+Package: picomatch@2.3.1
+License: MIT
+Repository: micromatch/picomatch
+
+Package: picomatch@4.0.3
+License: MIT
+Repository: micromatch/picomatch
+
+Package: prelude-ls@1.2.1
+License: MIT
+Repository: git://github.com/gkz/prelude-ls.git
+
+Package: progress@2.0.3
+License: MIT
+Repository: git://github.com/visionmedia/node-progress
+
+Package: property-expr@2.0.6
+License: MIT
+Repository: https://github.com/jquense/expr/
+
+Package: proxy-addr@2.0.7
+License: MIT
+Repository: jshttp/proxy-addr
+
+Package: pstree.remy@1.1.8
+License: MIT
+Repository: https://github.com/remy/pstree.git
+
+Package: punycode@2.3.1
+License: MIT
+Repository: https://github.com/mathiasbynens/punycode.js.git
+
+Package: qs@6.13.0
+License: BSD-3-Clause
+Repository: https://github.com/ljharb/qs.git
+
+Package: range-parser@1.2.1
+License: MIT
+Repository: jshttp/range-parser
+
+Package: raw-body@2.5.2
+License: MIT
+Repository: stream-utils/raw-body
+
+Package: read-package-up@11.0.0
+License: MIT
+Repository: sindresorhus/read-package-up
+
+Package: read-pkg@9.0.1
+License: MIT
+Repository: sindresorhus/read-pkg
+
+Package: readdirp@3.6.0
+License: MIT
+Repository: git://github.com/paulmillr/readdirp.git
+
+Package: reflect-metadata@0.2.2
+License: Apache-2.0
+Repository: https://github.com/rbuckton/reflect-metadata.git
+
+Package: regexp-match-indices@1.0.2
+License: Apache-2.0
+Repository: UNKNOWN
+
+Package: regexp-tree@0.1.27
+License: MIT
+Repository: DmitrySoshnikov/regexp-tree
+
+Package: repeat-string@1.6.1
+License: MIT
+Repository: jonschlinkert/repeat-string
+
+Package: require-from-string@2.0.2
+License: MIT
+Repository: floatdrop/require-from-string
+
+Package: resolve-from@4.0.0
+License: MIT
+Repository: sindresorhus/resolve-from
+
+Package: resolve-pkg-maps@1.0.0
+License: MIT
+Repository: privatenumber/resolve-pkg-maps
+
+Package: safe-buffer@5.2.1
+License: MIT
+Repository: git://github.com/feross/safe-buffer.git
+
+Package: safer-buffer@2.1.2
+License: MIT
+Repository: git+https://github.com/ChALkeR/safer-buffer.git
+
+Package: seed-random@2.2.0
+License: MIT
+Repository: https://github.com/ForbesLindesay/seed-random.git
+
+Package: semver@7.7.1
+License: ISC
+Repository: git+https://github.com/npm/node-semver.git
+
+Package: send@0.19.0
+License: MIT
+Repository: pillarjs/send
+
+Package: serve-static@1.16.2
+License: MIT
+Repository: expressjs/serve-static
+
+Package: setprototypeof@1.2.0
+License: ISC
+Repository: https://github.com/wesleytodd/setprototypeof.git
+
+Package: shebang-command@2.0.0
+License: MIT
+Repository: kevva/shebang-command
+
+Package: shebang-regex@3.0.0
+License: MIT
+Repository: sindresorhus/shebang-regex
+
+Package: side-channel-list@1.0.0
+License: MIT
+Repository: git+https://github.com/ljharb/side-channel-list.git
+
+Package: side-channel-map@1.0.1
+License: MIT
+Repository: git+https://github.com/ljharb/side-channel-map.git
+
+Package: side-channel-weakmap@1.0.2
+License: MIT
+Repository: git+https://github.com/ljharb/side-channel-weakmap.git
+
+Package: side-channel@1.1.0
+License: MIT
+Repository: git+https://github.com/ljharb/side-channel.git
+
+Package: signal-exit@4.1.0
+License: ISC
+Repository: https://github.com/tapjs/signal-exit.git
+
+Package: simple-update-notifier@2.0.0
+License: MIT
+Repository: https://github.com/alexbrazier/simple-update-notifier.git
+
+Package: source-map-support@0.5.21
+License: MIT
+Repository: https://github.com/evanw/node-source-map-support
+
+Package: source-map@0.6.1
+License: BSD-3-Clause
+Repository: http://github.com/mozilla/source-map.git
+
+Package: spdx-correct@3.2.0
+License: Apache-2.0
+Repository: jslicense/spdx-correct.js
+
+Package: spdx-exceptions@2.5.0
+License: CC-BY-3.0
+Repository: kemitchell/spdx-exceptions.json
+
+Package: spdx-expression-parse@3.0.1
+License: MIT
+Repository: jslicense/spdx-expression-parse.js
+
+Package: spdx-license-ids@3.0.21
+License: CC0-1.0
+Repository: jslicense/spdx-license-ids
+
+Package: stackframe@1.3.4
+License: MIT
+Repository: git://github.com/stacktracejs/stackframe.git
+
+Package: statuses@2.0.1
+License: MIT
+Repository: jshttp/statuses
+
+Package: string-argv@0.3.1
+License: MIT
+Repository: https://github.com/mccormicka/string-argv
+
+Package: string-width-cjs@4.2.3
+License: MIT
+Repository: sindresorhus/string-width
+
+Package: string-width@4.2.3
+License: MIT
+Repository: sindresorhus/string-width
+
+Package: string-width@5.1.2
+License: MIT
+Repository: sindresorhus/string-width
+
+Package: strip-ansi-cjs@6.0.1
+License: MIT
+Repository: chalk/strip-ansi
+
+Package: strip-ansi@6.0.1
+License: MIT
+Repository: chalk/strip-ansi
+
+Package: strip-ansi@7.1.0
+License: MIT
+Repository: chalk/strip-ansi
+
+Package: strip-json-comments@3.1.1
+License: MIT
+Repository: sindresorhus/strip-json-comments
+
+Package: supports-color@5.5.0
+License: MIT
+Repository: chalk/supports-color
+
+Package: supports-color@7.2.0
+License: MIT
+Repository: chalk/supports-color
+
+Package: supports-color@8.1.1
+License: MIT
+Repository: chalk/supports-color
+
+Package: tdigest@0.1.2
+License: MIT
+Repository: https://github.com/welch/tdigest.git
+
+Package: thenify-all@1.6.0
+License: MIT
+Repository: thenables/thenify-all
+
+Package: thenify@3.3.1
+License: MIT
+Repository: thenables/thenify
+
+Package: tiny-case@1.0.3
+License: MIT
+Repository: https://github.com/jquense/tiny-case.git
+
+Package: tinyglobby@0.2.15
+License: MIT
+Repository: git+https://github.com/SuperchupuDev/tinyglobby.git
+
+Package: to-regex-range@5.0.1
+License: MIT
+Repository: micromatch/to-regex-range
+
+Package: toidentifier@1.0.1
+License: MIT
+Repository: component/toidentifier
+
+Package: toposort@2.0.2
+License: MIT
+Repository: https://github.com/marcelklehr/toposort.git
+
+Package: touch@3.1.1
+License: ISC
+Repository: git://github.com/isaacs/node-touch.git
+
+Package: ts-api-utils@2.1.0
+License: MIT
+Repository: https://github.com/JoshuaKGoldberg/ts-api-utils
+
+Package: tslib@2.8.1
+License: 0BSD
+Repository: https://github.com/Microsoft/tslib.git
+
+Package: type-check@0.4.0
+License: MIT
+Repository: git://github.com/gkz/type-check.git
+
+Package: type-fest@2.19.0
+License: (MIT OR CC0-1.0)
+Repository: sindresorhus/type-fest
+
+Package: type-fest@4.41.0
+License: (MIT OR CC0-1.0)
+Repository: sindresorhus/type-fest
+
+Package: type-is@1.6.18
+License: MIT
+Repository: jshttp/type-is
+
+Package: undefsafe@2.0.5
+License: MIT
+Repository: https://github.com/remy/undefsafe.git
+
+Package: undici-types@7.8.0
+License: MIT
+Repository: git+https://github.com/nodejs/undici.git
+
+Package: unicorn-magic@0.1.0
+License: MIT
+Repository: sindresorhus/unicorn-magic
+
+Package: unpipe@1.0.0
+License: MIT
+Repository: stream-utils/unpipe
+
+Package: upper-case-first@2.0.2
+License: MIT
+Repository: git://github.com/blakeembrey/change-case.git
+
+Package: uri-js@4.4.1
+License: BSD-2-Clause
+Repository: http://github.com/garycourt/uri-js
+
+Package: util-arity@1.1.0
+License: MIT
+Repository: git://github.com/blakeembrey/arity.git
+
+Package: utils-merge@1.0.1
+License: MIT
+Repository: git://github.com/jaredhanson/utils-merge.git
+
+Package: uuid@10.0.0
+License: MIT
+Repository: git+https://github.com/uuidjs/uuid.git
+
+Package: uuid@11.0.5
+License: MIT
+Repository: https://github.com/uuidjs/uuid.git
+
+Package: validate-npm-package-license@3.0.4
+License: Apache-2.0
+Repository: kemitchell/validate-npm-package-license.js
+
+Package: vary@1.1.2
+License: MIT
+Repository: jshttp/vary
+
+Package: web-streams-polyfill@3.3.3
+License: MIT
+Repository: git+https://github.com/MattiasBuelens/web-streams-polyfill.git
+
+Package: which@2.0.2
+License: ISC
+Repository: git://github.com/isaacs/node-which.git
+
+Package: word-wrap@1.2.5
+License: MIT
+Repository: jonschlinkert/word-wrap
+
+Package: wrap-ansi-cjs@7.0.0
+License: MIT
+Repository: chalk/wrap-ansi
+
+Package: wrap-ansi@8.1.0
+License: MIT
+Repository: chalk/wrap-ansi
+
+Package: xmlbuilder@15.1.1
+License: MIT
+Repository: git://github.com/oozcitak/xmlbuilder-js.git
+
+Package: yaml@2.8.0
+License: ISC
+Repository: github:eemeli/yaml
+
+Package: yocto-queue@0.1.0
+License: MIT
+Repository: sindresorhus/yocto-queue
+
+Package: yup@1.6.1
+License: MIT
+Repository: git+https://github.com/jquense/yup.git
+
+================================================================================
